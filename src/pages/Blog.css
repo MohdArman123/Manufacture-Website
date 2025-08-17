@@ -1,0 +1,23 @@
+.blog {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .blog h2 {
+    color: #ffd700;
+    font-size: 2rem;
+  }
+  
+  .article {
+    margin: 1rem 0;
+  }
+  
+  .article a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  .article a:hover {
+    color: #000;
+  }
