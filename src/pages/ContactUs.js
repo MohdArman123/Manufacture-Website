@@ -15,7 +15,7 @@ function ContactUs() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/contact', formData);
+      await axios.post('http://localhost:5000/api/v1/contact', formData);
       alert('Message sent!');
       setFormData({ name: '', email: '', message: '' });
     } catch (error) {
@@ -39,8 +39,8 @@ function ContactUs() {
           <button type="submit">Send</button>
         </form>
         <div className="contact-details">
-          <p>Email: info@ealamfabricator.com</p>
-          <p>Phone: +1 123-456-7890</p>
+          <p>Email: armansheakh987@gmail.com</p>
+          <p>Phone: +91 8178642398</p>
         </div>
       </section>
       <Footer />

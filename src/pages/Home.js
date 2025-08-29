@@ -103,9 +103,9 @@ function Home() {
             <p>Learn about our journey and commitment to excellence. At E. ALAM FABRICATOR, we blend tradition with innovation to craft premium leather goods that stand the test of time.</p>
             <Link to="/about" className="see-more">See More</Link>
           </div>
-          {/* <div className="about-image">
+          <div className="about-image">
             <img src={ProcessImage} alt="About E. ALAM FABRICATOR" loading="lazy" />
-          </div> */}
+          </div>
         </div>
       </section>
       <section className="our-process">
