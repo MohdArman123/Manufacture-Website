@@ -33,7 +33,7 @@
 /* About Summary Section */
 .about-summary {
   background: var(--section-bg);
-  padding: 6rem 0;
+  padding: 5rem 1rem;
 }
 
 .summary-container {

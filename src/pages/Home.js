@@ -100,7 +100,26 @@ function Home() {
         <div className="about-container">
           <div className="about-summary">
             <h3>About Us</h3>
-            <p>Learn about our journey and commitment to excellence. At E. ALAM FABRICATOR, we blend tradition with innovation to craft premium leather goods that stand the test of time.</p>
+            <p>
+             Quality Leather Goods for Over 20 Years
+            </p>
+            <p>
+              At <strong>E. ALAM FABRICATOR</strong>, we take pride in being a trusted Indian
+              leather goods manufacturer with more than two decades of experience.
+              From wallets and bags to belts and accessories, our journey has always
+              been about <strong>quality, honesty, and craftsmanship.</strong>
+            </p>
+            <p>
+              We may not be the biggest, but our strength lies in delivering products
+              that reflect <strong>dedication and reliability.</strong> Each piece we
+              manufacture is carefully made using a blend of traditional techniques
+              and modern machinery to ensure both style and durability.
+            </p>
+            <p>
+              For us, every client matters—and we are committed to building lasting
+              relationships by providing products that not only meet expectations but
+              often <strong>exceed them.</strong>
+            </p>
             <Link to="/about" className="see-more">See More</Link>
           </div>
           <div className="about-image">

@@ -12,7 +12,9 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <h1>E. ALAM FABRICATOR</h1>
+        <Link to="/">
+          <h1>E. ALAM FABRICATOR</h1>
+        </Link>
       </div>
       <button className="hamburger" onClick={toggleMenu}>
         <span className="hamburger-line"></span>
