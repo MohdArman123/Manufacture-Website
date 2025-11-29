@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fb9c8968.css",
-    "main.js": "/static/js/main.ac78ec30.js",
+    "main.js": "/static/js/main.0200f073.js",
     "static/js/453.10527334.chunk.js": "/static/js/453.10527334.chunk.js",
     "static/media/fastening-buckle-briefcase.jpg": "/static/media/fastening-buckle-briefcase.f0257254d1041c63a965.jpg",
     "static/media/bifolld7.jpg": "/static/media/bifolld7.42fa13ee3be7420b996d.jpg",
@@ -56,11 +56,11 @@
     "static/media/Money_Clip_Wallets.webp": "/static/media/Money_Clip_Wallets.590b1abd501ad773df18.webp",
     "index.html": "/index.html",
     "main.fb9c8968.css.map": "/static/css/main.fb9c8968.css.map",
-    "main.ac78ec30.js.map": "/static/js/main.ac78ec30.js.map",
+    "main.0200f073.js.map": "/static/js/main.0200f073.js.map",
     "453.10527334.chunk.js.map": "/static/js/453.10527334.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb9c8968.css",
-    "static/js/main.ac78ec30.js"
+    "static/js/main.0200f073.js"
   ]
 }
