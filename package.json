@@ -1,7 +1,6 @@
 {
   "name": "e-alam-fabricator",
   "version": "0.1.0",
-  "homepage": "https://MohdArman123.github.io/Manufacture-Website/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
