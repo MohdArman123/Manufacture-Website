@@ -26,7 +26,7 @@ function Customization() {
   return (
     <div>
       <Helmet>
-        <title>Customization - E. ALAM FABRICATOR</title>
+        <title>Customization - NOORK ENTERPRISES</title>
         <meta name="description" content="Customize your wallets with us." />
       </Helmet>
       <Header />

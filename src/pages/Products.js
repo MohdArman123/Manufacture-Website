@@ -6,7 +6,8 @@ import Footer from '../components/Footer';
 import './Products.css';
 import WalletImage from '../assets/hero-image.jpg';
 import BeltImage from '../assets/belt4.jpg';
-import BagImage from '../assets/hero-image.jpg';
+// import BagImage from '../assets/hero-image.jpg';
+import BagImage from "../assets/fastening-buckle-briefcase.jpg"
 
 function Products() {
   const categories = [
@@ -33,7 +34,7 @@ function Products() {
   return (
     <div>
       <Helmet>
-        <title>Products - E. ALAM FABRICATOR</title>
+        <title>Products - NOORK ENTERPRISES</title>
         <meta name="description" content="Explore our premium product collections." />
       </Helmet>
       <Header />

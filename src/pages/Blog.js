@@ -21,7 +21,7 @@ function Blog() {
   return (
     <div>
       <Helmet>
-        <title>Blog - E. ALAM FABRICATOR</title>
+        <title>Blog - NOORK ENTERPRISES</title>
         <meta
           name="description"
           content="Read about wallet trends and branding tips."

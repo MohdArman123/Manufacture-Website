@@ -7,7 +7,7 @@ import "./Home.css";
 import Hero from "../assets/trifold2.jpg";
 import BeltImage from "../assets/2615.jpg";
 import BagImage from "../assets/fastening-buckle-briefcase.jpg";
-import AccessoryImage from "../assets/94.jpg";
+// import AccessoryImage from "../assets/94.jpg";
 import ProcessImage from "../assets/hero-image.jpg"; // Replace with a process-related image
 
 function Home() {
@@ -15,20 +15,20 @@ function Home() {
     { id: 1, name: "Wallets", image: Hero, link: "/products/wallets" },
     { id: 2, name: "Belts", image: BeltImage, link: "/products/belts" },
     { id: 3, name: "Bags", image: BagImage, link: "/products/bags" },
-    { id: 4, name: "Accessories", image: AccessoryImage, link: "/products/accessories" },
+    // { id: 4, name: "Accessories", image: AccessoryImage, link: "/products/accessories" },
   ];
 
   return (
     <div>
       <Helmet>
-        <title>E. ALAM FABRICATOR - Premium Wallets</title>
+        <title>NOORK ENTERPRISES - Premium Wallets</title>
         <meta name="description" content="Discover premium wallets crafted with quality and elegance." />
       </Helmet>
       <Header />
       <section className="hero">
         <div className="hero-content">
           <h2>Premium Wallets, Crafted for You</h2>
-          <p>Discover elegance and quality with E. ALAM FABRICATOR.</p>
+          <p>Discover elegance and quality with NOORK ENTERPRISES.</p>
           <div className="hero-buttons">
             <Link to="/products" className="cta-button">Explore Our Collection</Link>
             <Link to="/contact" className="cta-button">Get a Quote</Link>
@@ -50,7 +50,7 @@ function Home() {
       </section>
       <section className="why-choose-us">
         <div className="why-choose-us-header">
-          <h3>Why Choose E. ALAM FABRICATOR?</h3>
+          <h3>Why Choose NOORK ENTERPRISES?</h3>
           <p>Discover what sets us apart as your premium manufacturing partner.</p>
         </div>
         <div className="reasons-grid">
@@ -101,10 +101,10 @@ function Home() {
           <div className="about-summary">
             <h3>About Us</h3>
             <p>
-             Quality Leather Goods for Over 20 Years
+              Quality Leather Goods for Over 20 Years
             </p>
             <p>
-              At <strong>E. ALAM FABRICATOR</strong>, we take pride in being a trusted Indian
+              At <strong>NOORK ENTERPRISES</strong>, we take pride in being a trusted Indian
               leather goods manufacturer with more than two decades of experience.
               From wallets and bags to belts and accessories, our journey has always
               been about <strong>quality, honesty, and craftsmanship.</strong>
@@ -123,7 +123,7 @@ function Home() {
             <Link to="/about" className="see-more">See More</Link>
           </div>
           <div className="about-image">
-            <img src={ProcessImage} alt="About E. ALAM FABRICATOR" loading="lazy" />
+            <img src={ProcessImage} alt="About NOORK ENTERPRISES" loading="lazy" />
           </div>
         </div>
       </section>
@@ -150,9 +150,16 @@ function Home() {
         <div className="contact-container">
           <div className="contact-details">
             <h3>Contact Us Anytime</h3>
-            <p><strong>Office Address INDIA:</strong><br />L-42-43 Chanakya Place Part-2, C1 Janakpuri, West Delhi, Delhi 110059</p>
-            <p><strong>For India:</strong> 09971018371</p>
-            <p><strong>Email-id:</strong> armansheakh987@gmail.com</p>
+            <p><strong>📍 Office Address INDIA:</strong><br />L-42-43 Chanakya Place Part-2, C1 Janakpuri, West Delhi, Delhi 110059</p>
+            <p><strong>📞 Phone: </strong>
+              <a href="tel:+919971018371">+91 9971018371</a> |
+              <a href="tel:+918178642398"> +91 8178642398</a>
+            </p>
+            <p><strong>📧 Email-id: </strong>
+              <a href="mailto:info@noork.in">info@noork.in</a> |
+              <a href="mailto:armansheikh0110@gmail.com"> armansheikh0110@gmail.com</a>
+            </p>
+            
           </div>
           <div className="contact-map">
             <a
@@ -167,7 +174,7 @@ function Home() {
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
-                title="E. ALAM FABRICATOR Location"
+                title="NOORK ENTERPRISES Location"
               ></iframe>
             </a>
           </div>

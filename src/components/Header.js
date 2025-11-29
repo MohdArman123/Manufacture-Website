@@ -13,7 +13,7 @@ function Header() {
     <header className="header">
       <div className="logo">
         <Link to="/">
-          <h1>E. ALAM FABRICATOR</h1>
+          <h1>NOORK ENTERPRISES</h1>
         </Link>
       </div>
       <button className="hamburger" onClick={toggleMenu}>

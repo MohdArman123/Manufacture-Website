@@ -31,14 +31,14 @@ function Team() {
           </div>
         </section>
 
-        {/* Why Choose E. ALAM Team Section */}
+        {/* Why Choose NOORK ENTERPRISES Team Section */}
         <section className="team-section alt-background">
           <div className="team-container">
             <div className="team-image">
               <img src={TeamImage2} alt="Why Choose Our Team" loading="lazy" />
             </div>
             <div className="team-content">
-              <h2>Why Choose E. ALAM Team?</h2>
+              <h2>Why Choose NOORK Team?</h2>
               <ul>
                 <li>Expertise in delivering premium, customized leather goods.</li>
                 <li>Commitment to excellence in every stitch and detail.</li>

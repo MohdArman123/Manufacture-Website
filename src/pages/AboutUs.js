@@ -9,7 +9,7 @@ function AboutUs() {
   return (
     <div>
       <Helmet>
-        <title>About Us - E. ALAM FABRICATOR</title>
+        <title>About Us - NOORK ENTERPRISES</title>
         <meta name="description" content="Learn about our leather manufacturing expertise and values." />
       </Helmet>
       <Header />
@@ -19,7 +19,7 @@ function AboutUs() {
         <div className="summary-container">
           <div className="summary-content">
             <h2>Crafting Excellence in Leather Goods</h2>
-            <p className="highlight-text">Established in 1995, E. ALAM FABRICATOR has become synonymous with premium leather craftsmanship.</p>
+            <p className="highlight-text">Established in 1995, NOORK ENTERPRISES has become synonymous with premium leather craftsmanship.</p>
             <div className="stats-grid">
               <div className="stat-card">
                 <h3>25+</h3>
