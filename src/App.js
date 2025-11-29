@@ -10,7 +10,7 @@ import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
-    <Router basename="/Manufacture-Website">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
