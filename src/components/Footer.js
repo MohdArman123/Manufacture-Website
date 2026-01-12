@@ -6,12 +6,13 @@ function Footer() {
     <footer className="footer">
       <p>&copy; 2023 NOORK ENTERPRISES. All rights reserved.</p>
       <div className="social-links">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.facebook.com/noorkenterprises/" target="_blank" rel="noopener noreferrer">Facebook</a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/company/noork-enterprises/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </footer>
   );
 }
+
 
 export default Footer;
